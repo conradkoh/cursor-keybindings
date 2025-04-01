@@ -33,15 +33,6 @@
     "when": "terminalFocus && terminalHasBeenCreated || terminalFocus && terminalProcessSupported"
   },
   {
-    "key": "cmd+l",
-    "command": "composer.openAsPane"
-  },
-  {
-    "key": "cmd+l",
-    "command": "composer.closeComposerTab",
-    "when": "composerFocused"
-  },
-  {
     "key": "cmd+w",
     "command": "-composer.closeComposerTab",
     "when": "composerFocused"
