@@ -36,5 +36,47 @@
     "key": "cmd+w",
     "command": "-composer.closeComposerTab",
     "when": "composerFocused"
+  },
+  {
+    "key": "cmd+4",
+    "command": "composerMode.quick"
+  },
+  {
+    "key": "cmd+1",
+    "command": "composerMode.agent"
+  },
+  {
+    "key": "cmd+2",
+    "command": "composerMode.chat"
+  },
+  {
+    "key": "cmd+3 cmd",
+    "command": "composerMode.edit"
+  },
+  {
+    "key": "cmd+3",
+    "command": "composerMode.edit"
+  },
+
+  // vim line movements for wrapped text
+  {
+    "key": "up",
+    "command": "cursorUp",
+    "when": "editorTextFocus && vim.active && !inDebugRepl && !suggestWidgetMultipleSuggestions && !suggestWidgetVisible"
+  },
+  {
+    "key": "down",
+    "command": "cursorDown",
+    "when": "editorTextFocus && vim.active && !inDebugRepl && !suggestWidgetMultipleSuggestions && !suggestWidgetVisible"
+  },
+  {
+    "key": "k",
+    "command": "cursorUp",
+    "when": "editorTextFocus && vim.active && !inDebugRepl && vim.mode == 'Normal' && !suggestWidgetMultipleSuggestions && !suggestWidgetVisible"
+  },
+  {
+    "key": "j",
+    "command": "cursorDown",
+    "when": "editorTextFocus && vim.active && !inDebugRepl && vim.mode == 'Normal' && !suggestWidgetMultipleSuggestions && !suggestWidgetVisible"
   }
 ]
